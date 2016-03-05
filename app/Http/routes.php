@@ -24,6 +24,7 @@
 */
 
 Route::group(['middleware' => ['web']], function () {
+    \Illuminate\Support\Facades\App::setLocale('fa');
     Route::get('/',['as'=>'home','uses'=>'IndexController@index']);
 });
 

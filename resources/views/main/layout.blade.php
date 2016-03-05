@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <title>شرکت نفیس ترابر</title>
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <?php
+        $lang=\Illuminate\Support\Facades\App::getLocale();
+    ?>
+    @if($lang=='fa')
     <link rel="stylesheet" href="{{asset('css/bootstrap-rtl.css')}}">
+    @endif
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/font.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    @if($lang=='en')
+    <link rel="stylesheet" href="{{asset('css/ltr.style.css')}}">
+    @endif
 </head>
 <body>
 

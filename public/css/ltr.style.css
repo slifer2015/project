@@ -94,7 +94,7 @@ nav.main-nav{
     border: none;
 }
 nav.main-nav .navbar-header{
-    float: left;
+    float: right;
 }
 nav.main-nav .navbar-brand img{
     width: 60px;
@@ -108,7 +108,7 @@ nav .nav-container{
 /*-----------------------------------4- slider-------------------------*/
 /*slider-effect*/
 .slide{
-   /* margin-bottom: 10px;*/
+    /* margin-bottom: 10px;*/
 }
 .carousel .item{
     transition: opacity 1s;
@@ -167,7 +167,7 @@ main{
 
 /*-----------------------------------7 - footer-------------------------*/
 footer{
-   /* background-color: #333333;*/
+    /* background-color: #333333;*/
     padding-top: 10px;
 
 }
